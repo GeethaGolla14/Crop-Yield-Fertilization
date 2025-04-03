@@ -1,0 +1,37 @@
+Yield
+=====
+
+Turmeric	2001	Whole Year 	Arunachal Pradesh	573	2094	2128.5	58520.49	148.98
+Other Kharif pulses	2005	Kharif     	Jammu and Kashmir	1157	605	1721.8	138747.44	242.97
+Potato	2018	Whole Year 	Kerala	536.9	7381	2989.7	87085.18	187.915
+Barley	2002	Rabi       	Bihar	20427	23432	1105.8	1933824.09	5106.75
+Safflower	2009	Rabi       	Chhattisgarh	847	241	956.9	131979.54	143.99
+Jowar	2013	Kharif     	West Bengal	25	7	1939.9	3612.25	6.75
+Banana	2009	Whole Year 	Gujarat	22100	1605500	618	3443622	3757
+Cashewnut	2018	Kharif     	Andhra Pradesh	112612	99169	1220.5	18265666.4	39414.2
+Maize	2014	Kharif     	Nagaland	63600	125630	1333.3	9601056	20988
+
+
+Fertilizer
+==========
+
+34	65	64	Black	Cotton	24	0	20	28-28
+27	54	30	Clayey	Pulses	13	0	13	20-20
+30	60	27	Red	Tobacco	4	17	17	10/26/2026
+28	54	65	Black	Cotton	39	0	0	Urea
+36	60	43	Sandy	Millets	15	0	41	DAP
+31	62	44	Sandy	Barley	21	0	28	28-28
+27	53	35	Black	Oil seeds	37	0	0	Urea
+32	62	34	Red	Tobacco	22	0	24	28-28
+27	54	28	Clayey	Pulses	13	0	40	DAP
+26	52	38	Sandy	Maize	37	0	0	Urea
+30	60	27	Loamy	Sugarcane	12	0	40	DAP
+30	60	47	Sandy	Maize	22	0	21	28-28
+29	58	43	Clayey	Paddy	24	0	18	28-28
+30	60	63	Red	Cotton	9	9	29	14-35-14
+35	67	42	Sandy	Barley	10	0	35	DAP
+28	54	46	Clayey	Paddy	35	0	0	Urea
+35	68	33	Red	Tobacco	11	0	37	DAP
+25	50	65	Loamy	Cotton	36	0	0	Urea
+36	68	50	Loamy	Wheat	12	18	19	10/26/2026
+27	53	34	Black	Oil seeds	42	0	0	Urea

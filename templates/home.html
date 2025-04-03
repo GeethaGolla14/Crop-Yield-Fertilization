@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Form</title>
+  <meta content="" name="MyPage - Personal Portfolio Multipurpose Responsive Landing Page Template">
+  <meta content="" name="ZRTHEMES">
+
+  <!-- Favicons -->
+  <link href="static/assets/images/favicon.png" rel="icon">
+  <link href="static/assets/images/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&amp;family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&amp;display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&amp;display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&amp;display=swap" rel="stylesheet">
+  <!-- Vendor CSS Files -->
+  <link href="static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link href="static/assets/stylesheets/styles.css" rel="stylesheet">
+
+
+</head>
+
+<body data-aos-easing="ease-in-out" data-aos-duration="1000" data-aos-delay="0">
+
+  <header id="header" class="header d-flex align-items-center sticked stikcy-menu">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <a href="#" class="logo d-flex align-items-center">
+        <h1>Crop<span>.</span></h1>
+      </a>
+      <nav id="navbar" class="navbar">
+        <ul>
+            <li class="dropdown"><a style="color: blue" href="#"><span>Prediction</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                  <li><a style="color: blue" href="/home">Yield</a></li>
+                  <li><a style="color: blue" href="/home1">Fertilizer</a></li>
+    
+                </ul>
+            </li>
+            <li><a style="color: blue" href="/about" class="">Graph</a></li>
+          
+            <li class="dropdown"><a style="color: blue" href="#"><span>Notebook</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+                <ul>
+                    <li><a style="color: blue" href="/notebook1">Yield</a></li>
+                    <li><a style="color: blue" href="/notebook2">Fertilizer</a></li>
+
+                </ul>
+            </li>
+          
+          <li><a style="color: blue" href="/login" class="btn-get-started">Signout</a></li>
+        </ul>
+      </nav><!-- .navbar -->
+      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!--  Hero Section  -->
+  <section id="hero" class="hero sticked-header-offset">
+    <div class="container position-relative">
+      <div class="row gy-5 aos-init aos-animate">
+        <div class="col-lg-6  order-lg-1 d-flex flex-column justify-content-start text-left caption">
+          <h3 data-aos="fade-up">Welcome <span>To Dashboard! </span><span class="circle" data-aos="fade-right" data-aos-delay="800">.</span></h3>
+          <h1 data-aos="fade-up" data-aos-delay="400" style="color: white;">Crop Yield Prediction with Suitable Fertilization using Deep Learning.</h1>
+          <div class="social" data-aos="fade-up" data-aos-delay="600">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section -->
+
+  <main id="main">
+    <!-- Start Service Section -->
+    
+
+    <!--  About Us Section  -->
+    <section id="about" class="about">
+      <div class="container aos-init aos-animate" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>FORM </h2>
+          
+        </div>
+
+        <div class="row gy-4">
+          <div class="col-lg-6">
+
+  
+						<form action="/predict" method="post" style="width: 50%;font-size: 1.2em;margin-left: 5px;border-color: black;">
+											
+						<div class="form-group">
+							<label for="age">Crop : </label>
+							<select class="form-control" id="age" name="0" required="required">
+								<option value="">choose</option>
+								<option value="0">Arecanut</option>
+								<option value="1">Arhar/Tur</option>
+								<option value="2">Bajra</option>
+								<option value="3">Banana</option>
+								<option value="4">Barley</option>
+								<option value="5">Black pepper</option>
+								<option value="6">Cardamom</option>
+								<option value="7">Cashewnut</option>
+								<option value="8">Castor seed</option>
+								<option value="9">Coconut </option>
+								<option value="10">Coriander</option>
+								<option value="11">Cotton(lint)</option>
+								<option value="12">Cowpea(Lobia)</option>
+								<option value="13">Dry chillies</option>
+								<option value="14">Garlic</option>
+								<option value="15">Ginger</option>
+								<option value="16">Gram</option>
+								<option value="17">Groundnut</option>
+								<option value="18">Guar seed</option>
+								<option value="19">Horse-gram</option>
+								<option value="20">Jowar</option>
+								<option value="21">Jute</option>
+								<option value="22">Khesari</option>
+								<option value="23">Linseed</option>
+								<option value="24">Maize</option>
+								<option value="25">Masoor</option>
+								<option value="26">Mesta</option>
+								<option value="27">Moong(Green Gram)</option>
+								<option value="28">Moth</option>
+								<option value="29">Niger seed</option>
+								<option value="30">Oilseeds total</option>
+								<option value="31">Onion</option>
+								<option value="32">Other  Rabi pulses</option>
+								<option value="33">Other Cereals</option>
+								<option value="34">Other Kharif pulses</option>
+								<option value="35">Other Summer Pulses</option>
+								<option value="36">Peas & beans (Pulses)</option>
+								<option value="37">Potato</option>
+								<option value="38">Ragi</option>
+								<option value="39">Rapeseed &Mustard</option>
+								<option value="40">Rice</option>
+								<option value="41">Safflower</option>
+								<option value="42">Sannhamp</option>
+								<option value="43">Sesamum</option>
+								<option value="44">Small millets</option>
+								<option value="45">Soyabean</option>
+								<option value="46">Sugarcane</option>
+								<option value="47">Sunflower</option>
+								<option value="48">Sweet potato</option>
+								<option value="49">Tapioca</option>
+								<option value="50">Tobacco</option>
+								<option value="51">Turmeric</option>
+								<option value="52">Urad</option>
+								<option value="53">Wheat</option>
+								<option value="54">other oilseeds</option>
+							</select>
+													
+						</div>
+						<br>	
+
+						<div class="form-group">
+							<label for="age">Crop Year: </label>
+							<input class="form-control" type="text" id="age" name="1" required="required">
+						</div>
+						<br>
+										
+						<div class="form-group">
+							<label for="age">Season: </label>
+							<select class="form-control" id="age" name="2" required="required">
+								<option value="">choose</option>
+								<option value="0">Autumn</option> 
+								<option value="1">Kharif</option>
+								<option value="2">Rabi</option>
+								<option value="3">Summer</option>
+								<option value="4">Whole Year</option>
+								<option value="5">Winter</option>
+							</select>
+													
+						</div>
+						<br>
+						
+						<div class="form-group">
+							<label for="age">State: </label>
+							<select class="form-control" id="age" name="3" required="required">
+								<option value="">choose</option>
+								<option value="0">Andhra Pradesh</option>
+								<option value="1">Arunachal Pradesh</option>
+								<option value="2">Assam</option>
+								<option value="3">Bihar</option>
+								<option value="4">Chhattisgarh</option>
+								<option value="5">Delhi</option>
+								<option value="6">Goa</option>
+								<option value="7">Gujarat</option>
+								<option value="8">Haryana</option>
+								<option value="9">Himachal Pradesh</option>
+								<option value="10">Jammu and Kashmir</option>
+								<option value="11">Jharkhand</option>
+								<option value="12">Karnataka</option>
+								<option value="13">Kerala</option>
+								<option value="14">Madhya Pradesh</option>
+								<option value="15">Maharashtra</option>
+								<option value="16">Manipur</option>
+								<option value="17">Meghalaya</option>
+								<option value="18">Mizoram</option>
+								<option value="19">Nagaland</option>
+								<option value="20">Odisha</option>
+								<option value="21">Puducherry</option>
+								<option value="22">Punjab</option>
+								<option value="23">Sikkim</option>
+								<option value="24">Tamil Nadu</option>
+								<option value="25">Telangana</option>
+								<option value="26">Tripura</option>
+								<option value="27">Uttar Pradesh</option>
+								<option value="28">Uttarakhand</option>
+								<option value="29">West Bengal</option>
+							</select>
+													
+						</div>
+						<br>	
+						
+						<div class="form-group">
+							<label for="age">Area: </label>
+							<input class="form-control" type="text" id="age" name="4" required="required">
+						</div>
+						<br>
+						
+						<div class="form-group">
+							<label for="age">Production: </label>
+							<input class="form-control" type="text" id="age" name="5" required="required">
+						</div>
+						<br>
+
+						<div class="form-group">
+							<label  for="age">Annual Rainfall: </label>
+							<input class="form-control" type="text" id="age" name="6" required="required">
+						</div>
+						<br>
+
+						
+						<div class="form-group">
+							<label for="age">Fertilizer: </label>
+							<input class="form-control" type="text" id="age" name="7" required="required">
+						</div>
+						<br>
+
+						<div class="form-group">
+							<label for="age">Pesticide: </label>
+							<input class="form-control" type="text" id="age" name="8" required="required">
+						</div>
+						<br>
+							
+						
+										
+						<br><br><br>
+						<button type="submit" class="button" style="background-color: #04AA6D; /* Green */
+											border: none;
+											color: white;
+											padding: 15px 32px;
+											text-align: center;
+											text-decoration: none;
+											display: inline-block;
+											font-size: 16px;">Predict
+						</button>
+						</form>
+					<br>
+				
+					
+<br><br><br>
+</div>
+</div>
+
+</div>
+</section><!-- End About Us Section -->
+
+
+</main><!-- End #main -->
+
+<!--  Footer  -->
+<footer id="footer" class="footer">
+
+<div class="container">
+<div class="row gy-4">
+<div class="col-lg-12 col-md-12 footer-info text-center">
+  <div class="social-links d-flex mt-4 justify-content-center">
+	<a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+	<a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+	<a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+	<a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+  </div>
+</div>
+
+</div>
+</div>
+
+<div class="container mt-4">
+<div class="copyright">
+© Copyright <strong><span>MyPage</span></strong>. All Rights Reserved
+</div>
+<div class="credits">
+Designed by <a href="#">ZR Themes</a>
+</div>
+</div>
+
+</footer><!-- End Footer -->
+<!-- End Footer -->
+
+
+<!-- Vendor JS Files -->
+<script src="static/assets/javascripts/jquery.min.js"></script>
+<script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="static/assets/vendor/aos/aos.js"></script>
+<script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="static/assets/javascripts/plugins.js"></script>
+<script src="static/assets/javascripts/purecounter_vanilla.js"></script>
+<script src="static/assets/javascripts/validator.min.js"></script>
+<script src="static/assets/javascripts/contactform.js"></script>
+
+<!-- Template Main JS File -->
+<script src="static/assets/javascripts/main.js"></script>
+
+
+
+</body></html>
